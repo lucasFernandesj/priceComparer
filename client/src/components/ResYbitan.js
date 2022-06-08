@@ -85,7 +85,7 @@ class ResYbitan extends React.Component{
             {this.props.cartYbitan.length > 0 ? (
                  <div className={lastAdded}>
                      
-                 הוסף ליינות ביתן<br/>
+                <h2>ליינות ביתן</h2> הוסף <br/>
                  {this.props.cartYbitan[this.props.cartYbitan.length - 1].name}<br/>
                 <img src={this.props.cartYbitan[this.props.cartYbitan.length - 1].img} className='IMGvisibleYbitan' />
             </div>

@@ -99,7 +99,7 @@ class ResHazi extends React.Component {
         {this.props.cartHazi.length > 0 ? (
           <div className={lastAdded}>
               
-            הוסף לחצי חינם
+           <h2>לחצי חינם</h2> הוסף 
             <br />
             {this.props.cartHazi[this.props.cartHazi.length - 1].name}
             <br />

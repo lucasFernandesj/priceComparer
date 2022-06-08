@@ -104,7 +104,7 @@ class ResRami extends React.Component {
         </div>
         {this.props.cartRami.length > 0 ? (
           <div className={lastAdded}>
-            הוסף לרמי לוי
+           <h2>לרמי לוי</h2> הוסף 
             <br />
             {this.props.cartRami[this.props.cartRami.length - 1].name}
             <br />
