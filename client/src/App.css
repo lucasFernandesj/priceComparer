@@ -1,0 +1,266 @@
+.searchInput{
+  margin-left: 45%;
+  
+
+}
+
+.resContainer{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.resRami ,.resHazi ,.resYbitan {
+  display: flex;
+  width: 300px;
+  
+  
+}
+
+.filteredRami ,.filteredHazi , .filteredYbitan{
+  margin-top: 80px;
+  
+}
+
+
+ .ramiCartHeader , .haziCartHeader , .cartyBitanHeader{
+  margin-bottom: 40px;
+  width: fit-content;
+  margin-left: 87px;
+   
+}  
+
+
+
+.ramiCartHeader{
+  background-color: #1579F2;
+  color: #E30A00;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.haziCartHeader{
+  color: #004FA1;
+  background-color: #DC0008;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+.totalContainer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+.inline{
+  display:inline;
+}
+
+.itemOnCart:hover{
+  text-decoration: underline;
+  cursor:not-allowed;
+}
+.isCheaperContainer{
+  margin-top: 90px;
+}
+
+
+
+
+.cartsContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cartRami , .cartHazi , .cartYbitan{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: block;
+  position:fixed;
+  top: 0;
+  right: 0;
+  font-size: large;
+  font-weight: 700;
+  
+}
+
+.imgVisible{
+  height: 150px;
+  width: 150px;
+}
+
+.visibleHazi{
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.visibleYbitan{
+  margin-right: 135px;
+}
+
+.IMGvisibleYbitan{
+  margin-right: 20px;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+
+}
+
+
+.list:hover{
+ 
+  cursor: grab;
+  background-color: cornsilk;
+  color: black;
+
+  font-size: 1.01 em;
+}
+
+.list:active{
+  
+  cursor: grabbing;
+}
+
+
+
+li{
+  direction: rtl;
+}
+
+.resContainer{
+  text-align: right;
+}
+
+
+
+.ramiHeader{
+  
+  
+  margin-left: 130px;
+  margin-top: 0px;
+  width: fit-content;
+  background-color: #1579F2;
+  color: #E30A00;
+  
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
+.haziHeader{
+  
+  width: fit-content;
+  margin-top: 0px;
+  margin-left: 130px;
+  
+  color: #004FA1;
+  background-color: rgb(219, 0, 7);
+  
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+
+
+.yBitanHeader{
+  
+  width: fit-content;
+  margin-top: 0px;
+  margin-left: 120px;
+  
+ 
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+
+.cartyBitanHeader{
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+li{
+  font-size: large;
+}
+
+.imgDiv{
+  height: 80px;
+  margin-right: 70px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.cheaper{
+  background-color: green;
+  font-size: large;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+
+
+
+
+.link{
+ 
+    text-decoration: none;
+    color: inherit;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+    background-color: #1579F2;
+        border: 3px solid white;
+    padding: 5px;
+    max-width: fit-content;
+    margin-bottom: 9px;
+    margin-top: 10px;
+  
+}
+
+
+.link:hover{
+  border: 3px solid black;
+  
+}
+
+.link:visited{
+ 
+  text-decoration: none;
+}
+
+
+
+body {
+  padding: 15px;
+} 

@@ -1,0 +1,62 @@
+intalled express , cors , dotenv , nodemon , knex , pg , puppeteer
+
+25/05 - 14:50
+Make a function that will scrape for all of the products available at rami lewy
+21:00--Succeeded to get the names  ,for tomorrow try to get also the prices and to reverse the names
+
+
+26/05
+Scraper for rami levy works--function to insert them to the database is not working , maybe I need to fetch that adress every time?
+Start working on scraping prices for other supermarkets
+21:00 - scraper for Hezi Hinam on one page works.
+
+27/05
+Implement loop for all pages on HeziHinam , start working on other supermarkets
+
+
+28/05
+How to send the object from the scrape loop at the fetch for the product to be inserted in the database?
+cannot send post and delete requests on postman but could insert null values to rami_lewy , what makes me 
+believe that at some point I somewhat succeeded but didnt send the values
+
+QUESTION: On the scrapping function I can create an object with name and price in all instances,
+how to insert this object into the database?
+How to delete all of the products from the database?
+
+
+30/05
+start working on front end  OK
+Cant get imgs of ybitan for some reason !!X!!
+FOR TOMORROW => 
+-get imgs from Ybitan, !!X!!
+-align divs,  OK
+-if you earase the search input , it will display nothing OK
+-add displayed products to a list onClick  OK
+
+
+31/05
+-Remove item from list onClick  **OK**
+-implement feature in all markets **OK**
+-cant access client folder on git, something related to gitignore? **OK**
+-List of products of YBitan is messed up , how to do it properly? **OK**
+-Total is displaying NaN , how to do a reduce loop properly? **OK**
+-align lists and carts , maybe have carts on a div with display none that gets revealed on hover or on click?  **OK**
+
+
+01/06
+-Add feature that shows pic **OK**
+--ADD feature that shows pics on hover to other res !!! IMPORTANT !!
+-Pictures for Rami lewy and Ybeitan are not right , get the right Pictures
+-Add feature that shows what Cart is the cheaper **OK**
+-when hovering over the rami levy list the whole page shakes , how to stop it? box-sizing doesnt work... **OK**
+
+04.06-
+When a word is typed on the input , the whole page breaks to the side
+Fix the scraping for rami lewy
+***The scraper for hazi hinam works , run it**
+
+06.06-
+bug when there is an image selected and the user earases
+when scrolling down  , headers  className='ramiHeader'> act like if they were position sticky
+--On the cart , when removing items , the page breaks , how to solve?
+-UX --> is it better if the results are inside a div with border or not?
